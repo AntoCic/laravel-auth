@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('name',50);
             $table->string('url');
-            $table->string('languages',50);
             $table->text('description');
             $table->string('state',20);
             $table->tinyInteger('priority');

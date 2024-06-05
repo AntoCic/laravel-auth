@@ -22,5 +22,10 @@
             </div>
         </div>
     </div>
+    <div class="row ">
+        <div class="col">
+           <a href="{{url('admin/projects')}}">Project</a>
+        </div>
+    </div>
 </div>
 @endsection
